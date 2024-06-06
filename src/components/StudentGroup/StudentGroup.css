@@ -1,0 +1,62 @@
+.student-group-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.student-group-container p {
+  color: #615b5b;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: Inter;
+}
+
+.student-group.red {
+  border: 4px solid red;
+}
+
+.student-group.orange {
+  border: 4px solid orange;
+}
+
+.student-group {
+  background-color: #d9d9d9;
+  min-height: 220px;
+  display: flex;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.studentgroup-student-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  min-height: 100px;
+}
+
+.info-box {
+  width: 355px;
+  min-height: 92px;
+  background: #615b5b;
+  margin-top: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-box p {
+  color: #f2f2f2;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Inter;
+}
+
+.signalling-info {
+  font-size: 18px;
+  margin-top: 10px;
+}

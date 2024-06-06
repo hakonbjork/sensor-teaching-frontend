@@ -1,0 +1,53 @@
+/* StudentGroupModal.css */
+.group-modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 55%; /* Adjust width as needed */
+  background-color: white; /* Ensures solid background */
+  border: 2px solid #000; /* Adjust border color and size as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow, adjust as needed */
+  padding: 16px; /* Adjust padding as needed */
+  font-family: "Inter";
+}
+
+.modal-title {
+  margin-bottom: 20px; /* Space between title and content */
+  text-align: center;
+}
+
+.modal-body {
+  max-height: 300px; /* Adjust based on your content size */
+  overflow-y: auto; /* Enables scroll for overflow content */
+  display: flex;
+  justify-content: center;
+  gap: 10%;
+}
+
+.student-modal {
+  margin-right: 30px; /* Space between students */
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.student-modal h3 {
+  margin-bottom: 10px;
+}
+
+.modal-close-button {
+  cursor: pointer;
+  background-color: #f44336; /* Red color for close button, adjust as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 20px; /* Space between content and the close button */
+  border-radius: 5px; /* Rounded corners for the button */
+  float: right; /* Align the button to the right */
+}
+
+/* Adjust the box sizing, in case it's not already globally set */
+.modal-content,
+.modal-close-button {
+  box-sizing: border-box;
+}

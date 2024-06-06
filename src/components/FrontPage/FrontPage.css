@@ -1,0 +1,112 @@
+.form-container {
+  flex-direction: column;
+  justify-content: center; /* Centers vertically in the viewport */
+  align-items: center; /* Centers horizontally */
+  min-height: 100vh;
+  background: #a9a9a9;
+  padding: 2vh; /* Add padding to prevent content from touching the edges */
+  box-sizing: border-box; /* Includes padding in the width and height */
+}
+
+.frontpage-header {
+  width: 100%; /* Full width */
+  max-width: 400px; /* Matches the form width */
+  margin: 0 auto 20px; /* Adds space below the header */
+  color: #615b5b;
+}
+
+.frontpage-header h1 {
+  text-align: center;
+  font-family: "Inter";
+}
+
+.frontpage-main {
+  width: 100%;
+
+  margin: auto; /* Centers the main content */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligns children (form fields) centrally */
+}
+
+.frontpage-container {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the form fields */
+}
+
+.form-field {
+  width: 100%; /* Full width to fill the container */
+  margin: 5px 0; /* Uniform margin for all form fields */
+  font-family: "Inter";
+}
+
+.form-field label {
+  display: block; /* Ensures the label takes up the full width */
+  text-align: left; /* Aligns the text to the left */
+  margin-bottom: 5px; /* Space between label and input */
+  color: #615b5b;
+}
+
+.form-field input[type="number"] {
+  width: 100%; /* Ensures input takes the full width of its parent */
+  padding: 10px; /* Adequate padding for aesthetics */
+  margin: 0; /* Removes any default margin */
+  border: 1px solid #ccc; /* Adds a border for definition */
+  border-radius: 4px; /* Rounds the corners of the input field */
+}
+
+.submit-button {
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+  background-color: #4786a0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: "Inter";
+}
+
+.frontpage-footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 52px;
+  background: #4786a0;
+}
+
+.info-box {
+  width: 100%;
+  max-width: 500px; /* Matches the form width */
+  background: #f0f0f0; /* Light grey background for contrast */
+  padding: 40px; /* Padding around the content */
+  margin-top: 20px; /* Space above the info box */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for depth */
+  font-family: "Inter";
+}
+
+.info-box h2 {
+  margin-top: 0;
+  color: #4786a0; /* Using the same color as the submit button for consistency */
+  font-size: 17px;
+}
+
+.info-box p {
+  color: #615b5b; /* Matching the form text color */
+  line-height: 1.5; /* Improves readability */
+  font-family: "Inter";
+  font-size: 17px;
+}
+
+.info-box ul {
+  color: #615b5b; /* Matching the form text color */
+  line-height: 1.5; /* Improves readability */
+  font-family: "Inter";
+  font-size: 15px;
+}
+.measurement-container-fp {
+  transform: scale(0.5); /* Scales down to 50% of the original size */
+}

@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+.dashboard-container {
+  min-height: 100vh;
+  position: relative;
+  background: #a9a9a9;
+}
+
+.dashboard-header {
+  height: 52px;
+  background: #4786a0;
+}
+
+.dashboard-header h1 {
+  color: #f2f2f2;
+  font-size: 35px;
+  font-family: Inter;
+  text-align: center;
+  line-height: 52px;
+}
+
+.dashboard-footer {
+  position: absolute;
+  bottom: 0;
+  height: 52px;
+  background: #4786a0;
+  width: 100%;
+}
+
+.dashboard-main {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: "pointer";
+  margin-bottom: 45px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.student-group-wrapper {
+  cursor: pointer;
+}
+
+.info-icon {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  background: #615b5b;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  box-sizing: border-box;
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the icon */
+}

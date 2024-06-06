@@ -1,0 +1,49 @@
+.measurement-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-around; /* Distribute space evenly between and around items */
+  align-items: flex-start; /* Align items at the start of the cross axis */
+  padding: 10px; /* Padding inside the container */
+  background: #d9d9d9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 0 auto; /* Center the container on the page */
+  width: 800px; /* The fixed width of the container */
+  height: auto; /* Allow the container height to grow with the content */
+}
+.measurement-icon-container {
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Creates two columns, with each column taking an equal fraction of the available space */
+  grid-template-rows: repeat(
+    2,
+    1fr
+  ); /* Creates three rows, with each row taking an equal fraction of the available space */
+  grid-gap: 30px; /* This adds a gap of 30px between both rows and columns */
+  justify-items: center; /* Center items along the inline (row) axis */
+  align-items: center; /* Center items along the block (column) axis */
+  padding: 5px; /* Padding inside the container */
+}
+
+.measurement-header {
+  width: 100%; /* Make header take full width of the container */
+  height: 42.83px;
+
+  background: #4786a0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.measurement-header h1 {
+  /* Measurements */
+  color: #ffffff;
+  font-family: "Inter";
+  font-size: 25px;
+  line-height: 42px;
+  text-align: center;
+}
+.measurements {
+  margin-top: 40px; /* Adjust the value as needed */
+  margin-left: 40px; /* Adjust the value as needed */
+}

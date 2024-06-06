@@ -1,0 +1,19 @@
+.student-states-info-container {
+  width: 100%; /* Use the full width of the modal */
+  display: flex; /* Use flexbox for the layout */
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Center items */
+  gap: 20px; /* Space between items */
+}
+
+.student-state-info {
+  display: flex; /* Use flexbox for each state info */
+  flex-direction: row; /* Arrange icon and text in a row */
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Full width to use the space */
+}
+
+.student-state-text {
+  flex-grow: 1; /* Text takes up remaining space */
+  text-align: left; /* Align text to the left */
+}

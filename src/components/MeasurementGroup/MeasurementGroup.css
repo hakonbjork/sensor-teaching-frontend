@@ -1,0 +1,74 @@
+.measurement-group {
+  box-sizing: border-box;
+  flex: 0 1 calc(50% - 10px); /* Adjust width for 2 items per row with some space between them */
+  height: 150px; /* Increased height to accommodate larger icons */
+  width: 150px;
+  margin: 10px; /* Space between the measurement groups */
+  background: #f4f1f1; /* Ensure this is a contrasting color */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  display: flex;
+  flex-direction: column; /* Orient children vertically */
+  justify-content: center; /* Align children vertically center */
+  align-items: center; /* Align children horizontally center */
+  padding-top: 10px; /* Optional: additional spacing at the top */
+  padding-bottom: 10px; /* Optional: additional spacing at the bottom */
+  border: 6px solid transparent; /* Add this to ensure border color changes are visible */
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.measurement-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.measurement-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  color: #615b5b;
+}
+
+.grey-overlay {
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+
+.measurement-selected-sad {
+  border-color: #a0aec0; /* Color for 'sad' */
+}
+
+.measurement-selected-angry {
+  border-color: #f6ad55; /* Color for 'angry' */
+}
+
+.measurement-selected-happy {
+  border-color: #68d391; /* Color for 'happy' */
+}
+
+.measurement-selected-engagement {
+  border-color: #63b3ed; /* Color for 'engaged' */
+}
+
+.measurement-selected-surprise {
+  border-color: #fc8181; /* Color for 'surprised' */
+}
+
+.measurement-selected-stress {
+  border-color: #e53e3e; /* Color for 'stressed' */
+}
+
+/* New colors fitting into the provided code structure */
+.measurement-selected-fear {
+  border-color: #b794f4; /* Adjusted to represent 'fear' */
+}
+
+.measurement-selected-disgust {
+  border-color: #4fd1c5; /* Adjusted to represent 'disgusted' */
+}
